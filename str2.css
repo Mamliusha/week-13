@@ -1,0 +1,35 @@
+.container {
+    background-color: cornflowerblue;
+    width: 20%;
+    padding: 15px;
+    margin: 10px;
+}
+
+input {
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p,
+h2,
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    background-color: lightblue;
+    font: white;
+}
+#finalavatar{
+    max-width: 100px;
+}
+.finalContainer{
+    width: 50%;
+    margin: 10px;
+    border: 1px solid blue;
+}
+#NameAndAv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="str2.js"></script>
+    <link rel="stylesheet" href="str2.css" />
+  </head>
+
+  <body>
+    <h2>Сервис комментариев</h2>
+    <h3>Оставь свой комментарий</h3>
+    <fieldset>
+      <legend>Показывать ваше имя?</legend>
+  
+      <div>
+        <input type="checkbox" id="yes" name="yes" checked>
+        <label for="yes">Да</label>
+      </div>
+  
+      <div>
+        <input type="checkbox" id="no" name="no" >
+        <label for="no">Нет</label>
+      </div>
+  </fieldset>
+  </div>
+    <div class="container">
+      <p>Введите свое имя</p>
+      <input type="text" id="name" />
+      <p>Введите ссылку на ваш аватар</p>
+      <input type="text" id="avatar" url />
+      <p>Оставьте комментарий</p>
+      <input type="text" id="comment" />
+      <button id="submit" onclick="CorrectName(),CorrectComment(), isChecked(), IsAvatarSet()">
+        Отправить
+      </button>
+    </div>
+    <div class="finalContainer">
+      <div id="NameAndAv">
+        <p id="finalname"></p>
+        <img id="finalavatar" />
+        <p id="DatePosted"></p>
+      </div>
+      <p id="finalcomment"></p>
+    </div>
+  </body>
+</html>
